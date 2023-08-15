@@ -1,12 +1,7 @@
 # PROJECT: 0x08. C - Recursion
 
-## Project By: Jordan Crossley
 
-## Course: ALX SOFTWARE ENGINEERING
-
-![image](https://media.geeksforgeeks.org/wp-content/cdn-uploads/Recursive-Functions-in-c.png)
-
-### Recursion is a programming concept where a function calls itself to solve a problem by breaking it down into smaller, simpler versions of the same problem. It involves defining a base case to stop the recursive calls and a recursive step that reduces the problem size until the base case is reached.
+## TASKS
 
 ### File: `_putchar.c` is a file containing the _putchar function.
 
