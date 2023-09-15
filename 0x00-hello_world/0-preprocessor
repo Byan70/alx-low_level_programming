@@ -1,2 +1,12 @@
 #!/bin/bash
-gcc -E $CFILE -o c
+
+# Check if the CFILE variable is set
+if [ -z "$CFILE" ]; then
+  echo "CFILE variable is not set. Please export CFILE with the C file name."
+  exit 1
+fi
+
+# Run the C file through the preprocessor and save the result to 'c' file
+cpp "$CFILE" > c
+
+echo "Preprocessing of $CFILE completed. Output saved in 'c' file."
