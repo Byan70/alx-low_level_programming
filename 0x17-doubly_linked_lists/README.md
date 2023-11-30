@@ -1,59 +1,42 @@
-# 0x17. C - Doubly Linked Lists
+# C - Doubly linked lists
 
-## Description
+* What is a doubly linked list
 
-This project focuses on the implementation of doubly linked lists in the C programming language, adhering to specific coding standards and requirements. The code will be interpreted/compiled on Ubuntu 20.04 LTS using Python3 (version 3.8.5). It follows the Betty style and is checked using `betty-style.pl` and `betty-doc.pl`. The project conforms to various guidelines, including limitations on global variables, the use of specific C standard library functions, and a maximum of 5 functions per file.
+* How to use doubly linked lists
 
-## Project Structure
+![final](https://media.geeksforgeeks.org/wp-content/uploads/20210103223100/9.png)
 
-- `main.c`: Example main file for testing functions (Note: Do not push to the repo; only use for testing purposes)
-- `lists.h`: Header file containing prototypes of all functions
-- `file1.c`: Implementation of functions related to a specific feature
-- `file2.c`: Implementation of functions related to another specific feature
-- ...
+  ## Resources
+
+  * [What is a Doubly Linked List](https://intranet.alxswe.com/rltoken/C5_IRM981SVn8oA8RP3gag)
+
+  ## Please use this data structure for this project:
+
+ * struct dlistint_s - doubly linked list
+ * @n: integer
+ * @prev: points to the previous node
+ * @next: points to the next node
+ *
+ * Description: doubly linked list node structure
+ * 
 
 ## Requirements
 
-- Allowed editors: `vi`, `vim`, `emacs`
-- Ubuntu 20.04 LTS
-- Python3 (version 3.8.5)
-- Code should use the Betty style
-- No global variables allowed
+### General
+
+- Allowed editors: vi, vim, emacs
+- All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
+- All your files should end with a new line
+- A README.md file, at the root of the folder of the project is mandatory
+- Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
+- You are not allowed to use global variables
 - No more than 5 functions per file
-- Only allowed C standard library functions: `malloc`, `free`, `printf`, `exit`
+- The only C standard library functions allowed are malloc, free, printf and exit
+- In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
+- The prototypes of all your functions should be included in your header file called lists.h
+- Don’t forget to push your header file
+- All your header files should be include guarded
 
-## Usage
+# Author
 
-To compile the project, use the following command:
-
-```bash
-$ gcc -Wall -Werror -Wextra -pedantic *.c -o executable_name
-```
-
-To run the executable:
-
-```bash
-$ ./executable_name
-```
-
-## Testing
-
-You can use the provided `main.c` file for testing your functions. However, do not push this file to the repository, as different main files might be used during compilation.
-
-## Header File
-
-Ensure that all function prototypes are included in the `lists.h` header file. This file should be properly include guarded.
-
-## Author
-
-Achieng Brian
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Image
-
-Include an image related to the project here. For example:
-
-![C Programming Language](https://www.google.com/imgres?imgurl=x-raw-image%3A%2F%2F%2Fa060de2e501f997184f5b46b86e9b89d94236e4ba5828c49207dd2f37a0b7663&tbnid=cZkfUC7eYKAhtM&vet=12ahUKEwjcntyu_bmCAxXHkScCHXejBcoQMyg5egUIARDWAQ..i&imgrefurl=https%3A%2F%2Fwww.rose-hulman.edu%2Fclass%2Fcs%2Fcsse220%2F200820%2Fweb%2FSlides%2F220-Day22_200820.pdf&docid=kD6LnCdycQ5M3M&w=752&h=94&itg=1&q=0x17.%20c%20-%20doubly%20linked%20lists&hl=en&ved=2ahUKEwjcntyu_bmCAxXHkScCHXejBcoQMyg5egUIARDWAQ)
+** Brian Achieng**
